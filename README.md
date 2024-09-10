@@ -13,6 +13,19 @@ This project involves analyzing a dataset of articles to extract insights, visua
 - `collections`: For creating and managing counters and defaultdicts.
 - `sklearn`: For text vectorization and topic modeling.
 
+## Requirements
+Make sure to install the necessary libraries using:
+
+```bash
+pip install pandas plotly wordcloud matplotlib textblob spacy sklearn
+```
+
+Also, download the SpaCy language model:
+
+```bash
+python -m spacy download en_core_web_sm
+```
+
 ## Steps
 
 ### 1. Importing Libraries
@@ -108,19 +121,6 @@ fig.show()
 ```
 
 Latent Dirichlet Allocation (LDA) is used for topic modeling. The distribution of topics across articles is visualized using a bar chart.
-
-## Requirements
-Make sure to install the necessary libraries using:
-
-```bash
-pip install pandas plotly wordcloud matplotlib textblob spacy sklearn
-```
-
-Also, download the SpaCy language model:
-
-```bash
-python -m spacy download en_core_web_sm
-```
 
 ### Conclusion
 This notebook provides a comprehensive analysis of the articles, including text visualization, sentiment analysis, named entity extraction, and topic modeling. The interactive visualizations created using Plotly enhance the understanding of the data and the insights derived from it.
