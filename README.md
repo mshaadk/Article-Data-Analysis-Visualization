@@ -38,7 +38,7 @@ data.head()
 
 We load the dataset `articles.csv` which contains the articles to analyze.
 
-3. Visualizing the Word Cloud
+### 3. Visualizing the Word Cloud
 ```python
 # Combine all titles into a single string
 titles_text = ' '.join(data['Title'])
@@ -66,7 +66,7 @@ fig.show()
 
 Sentiment analysis is performed on the articles, and the distribution of sentiments is visualized using a histogram.
 
-5. Performing Named Entity Recognition (NER)
+### 5. Performing Named Entity Recognition (NER)
 ```python
 # NER
 def extract_named_entities(text):
